@@ -1,0 +1,39 @@
+/*1.	Eliminar el borde gris que muestran por defecto todos los elementos.*/
+
+.cabecera, .menu, .lateral, .contenido, .pie { border: none; }
+
+.contenido .principal, .secundario {border: none;}
+
+/*2.	El elemento #menu debe tener un borde inferior de 1 píxel y azul (#004C99).*/
+
+.menu { 
+	border: solid;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	border-bottom-width: 1px; 
+	border-bottom-color: #004C99
+	 }
+
+/*3.	El elemento #noticias muestra un borde de 1 píxel y gris claro (#C5C5C5).*/
+
+.noticias { border-width: 1px; border-color: #C5C5C5; border-style: solid; }
+
+/*4.	El elemento #publicidad debe mostrar un borde discontinuo de 1 píxel y de color #CC6600.*/
+
+.publicidad { border-width: 1px; border-style: dotted; border-color: #CC6600;  }
+
+/*5.	El lateral formado por el elemento #secundario muestra un borde de 1 píxel y de color #CC6600.*/
+
+.contenido .secundario { border-width: 1px; border-color: #CC6600; }
+
+/*6.	El elemento #pie debe mostrar un borde superior y otro inferior de 1 píxel y color gris claro #C5C5C5.*/
+
+.pie { 
+	border: solid;
+	border-top-width: 1px;
+	border-right: transparent;
+	border-bottom-width: 1px; 
+	border-left: transparent;
+	border-color: #C5C5C5
+	 }

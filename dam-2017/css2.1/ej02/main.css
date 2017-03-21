@@ -1,0 +1,21 @@
+/* A partir del código HTML proporcionado, añadir las reglas CSS necesarias para que la página resultante tenga 
+el mismo aspecto que el de la imagen que hay en la carpeta del ejercicio (aspecto final.png)
+
+Los nombres de los colores están estandarizados y se corresponden con el nombre en inglés de cada color. 
+En este ejercicio, se deben utilizar los colores: teal, red, blue, orange, purple, olive, fuchsia y green. */
+
+h1 {color: green}
+p strong {color: red} 
+p .destacado {color: orange}
+h2 {color: blue}
+p a {color: red}
+p em {color: blue}
+p .especial {color: purple}
+caption {color: blue}
+.especial {color: orange}
+td {color: green}
+td strong {color: orange}
+th {color: red}
+div {color: olive} 
+#especial {color: fuchsia}
+#adicional p a {color: green}

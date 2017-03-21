@@ -1,0 +1,88 @@
+/* Aplicar las reglas CSS necesarias para que el formulario muestre el aspecto de la imagen inicial.png contenida en esta
+carpeta.*/
+box-sizing: border-box;
+
+body{font-size: 0.7em;
+    font-family:arial;}
+
+label.titulo {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: arial;
+}
+
+#contenedor {
+    margin: auto;
+    width: 50%;
+}
+
+h2 {
+    font-size: 2.2em;
+    padding: 0 1.5em;
+    font-family: arial;
+}
+
+form ul li p {
+    visibility: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 46%;
+    padding:0.9em;
+    margin: 0.5em 0;
+}
+
+span input, span label, span select, span.mitad, span.cuarenta, span.sesenta, li {
+    display: block;
+    /* width: 100%; */
+}
+
+span input, span label, span select{
+    width: 100%;
+   
+}
+
+span input, span select{
+     margin: 0.5em 0 0 0;
+}
+span.mitad, span.cuarenta, span.sesenta, li{
+    float: left;
+}
+
+span.mitad {
+    width: 46%;
+}
+
+span.cuarenta {
+    width: 34%;
+}
+
+span.sesenta {
+    width: 60%;
+}
+
+span.cuarenta, span.mitad{
+     padding: 0 0.8em 0 0;
+}
+
+li.right {
+    float: right;
+    text-align: right;
+}
+/* Cuando el usuario pasa el ratón por encima de cada grupo de elementos de formulario (es decir, por encima de cada <li>)
+se debe modificar su color de fondo (sugerencia: color amarillo claro #FF9). Además, cuando el usuario se posiciona
+en un cuadro de texto, se debe modificar su borde para resaltar el campo que está activo cada momento 
+(sugerencia: color amarillo #E6B700) */
+
+
+/* Utilizando el menor número de reglas CSS, cambiar el aspecto del formulario para que se muestre como la imagen 
+formulario.png contenida en esta misma carpeta */
+
+/* Cuando el usuario pasa el ratón por encima de un grupo de elementos de formulario (es decir, por encima de cada <li>) 
+se debe mostrar el mensaje de ayuda asociado. Añadir las reglas CSS necesarias para que el formulario tenga el aspecto 
+definitivo mostrado en la imagen aspectofinal.png contenida en esta misma carpeta. */
+

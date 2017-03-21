@@ -1,0 +1,48 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+ul.menu {
+  width: 180px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #7C7C7C;
+}
+ul.menu li {
+  border-bottom: 1px solid #7C7C7C;
+  border-top: 1px solid #FFF;
+  background: #F4F4F4;
+}
+ul.menu li a {
+  padding: .2em 0 .2em 1.3em;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+/* === IMPORTANTE ===================================================
+   A partir de aquí, se pueden añadir todos los estilos propios que
+   sean necesarios.
+   ================================================================== */
+
+/* Modificar el menú vertical sencillo para que muestre el siguiente comportamiento: 
+
+1) Los elementos deben mostrar una imagen de fondo (flecha_inactiva.png) (ver imagen 1.png en esta misma carpeta) */ 
+
+a {background: lightcoral url("./imgs/flecha_inactiva.png") no-repeat left center;
+  margin: 0 0.3em;}
+
+
+/* 2) Cuando se pasa el ratón por encima de un elemento, se debe mostrar una imagen alternativa (flecha_activa.png) 
+(ver imagen 2.png en esta misma carpeta) */
+
+  a:hover{
+   background: lightpink url("./imgs/flecha_activa.png") no-repeat left center;
+  margin: 0 0.3em;
+ }
+ 
+/* 3) El color de fondo del elemento también debe variar ligeramente y mostrar un color gris más oscuro (#E4E4E4) 
+cuando se pasa el ratón por encima. Ver imagen 3.png en esta misma carpeta */
+ 
+

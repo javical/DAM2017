@@ -1,0 +1,103 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+.contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: 900;
+  margin: 0 auto;
+}
+
+.cabecera, .menu, .lateral, .contenido, .contenido .principal, .contenido .secundario, .pie {
+  border: 2px solid #777;
+}
+
+.cabecera { clear: both; }
+.menu { clear: both; }
+.lateral { float: left; width: 20%; margin-bottom: 15px; }
+.contenido { float: right; width: 78%; }
+.contenido .principal { float: left; width: 74%; }
+.contenido .secundario { float: right; width: 20%; }
+.pie { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+.cabecera .logo { float: left; }
+.cabecera .buscador { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+.menu ul.menu_principal li { display: inline; }
+
+/*-- Sección Principal -----------------------------------------------*/
+.contenido .principal .articulo img { width: 100px; float: left; }
+
+/*-- Pie de página ---------------------------------------------------*/
+.pie .enlaces   { float: left; }
+.pie .copyright { float: right; }
+
+/* === IMPORTANTE ===================================================
+   A partir de aquí, se pueden añadir todos los estilos propios que
+   sean necesarios.
+   ================================================================== */
+.cabecera {padding: 1em;}
+.menu {padding: 0.5em; margin-bottom: 0.5em;}
+.noticias, .publicidad, .principal, .secundario, .pie {padding: 0.5em;}
+.pie {padding-left: 0; padding-right: 0;}
+.articulo {margin-bottom: 1em;}
+.articulo img {margin: 0.5em;}
+.publicidad {margin-top: 1em;}
+.pie {margin-top: 1em;}
+
+.cabecera, .menu, .lateral, .contenido, .contenido .principal, .contenido .secundario, .pie {
+  border: none;
+  background-color: #FFF;
+}
+
+.menu {border-bottom: 1px solid #004C99;}
+.noticias {border: 1px solid #C5C5C5;}
+.publicidad {border: 1px dotted #CC6600;}
+.contenido .secundario {border: 1px solid #CC6600;}
+.pie {border-top: 1px solid #C5C5C5; border-bottom: 1px solid #C5C5C5;}
+
+.noticias, .pie {background-color: #F8F8F8;}
+.publicidad {background-color: #FFF6CD;}
+.secundario h2 {background-color: #DB905C; padding: 0.2em;}
+.menu {background: transparent url('img/fondo_menu.gif') repeat 0 0;}
+h1 {background: transparent url('img/logo.gif') no-repeat 0 0; width: 162px; height: 53px;}
+h1 span {display: none;}
+
+/* Determinar las reglas CSS necesarias para que el resultado sea similar al mostrado en la imagen contenida 
+en esta misma carpeta (aspectofinal.png*/
+
+/*1.  La fuente base de la página debe ser: color negro, tipo Arial, tamaño 0.9em, interlineado 1.4.*/
+body {font-family: Arial, sans-serif; font-weight: normal .9em; line-height: 1.4;}
+
+/*2.  Los elementos <h2> de .articulo se muestran en color #CC6600, con un tamaño de letra de 1.6em, 
+un interlineado de 1.2 y un margen inferior de 0.3em.*/
+.articulo h2 {color: #CC6600; font-weight:1.6em; line-height: 1.2; margin-bottom: 0.3em; }
+
+/*3.  Los elementos del #menu deben mostrar un margen a su derecha de 1em y los enlaces deben ser de 
+color blanco y tamaño de letra 1.3em.*/
+.menu ul {margin-right: 1em; font-color: white; font-weight: 1.3em;}
+
+/*4.  El tamaño del texto de todos los contenidos de #lateral debe ser de 0.9em. La fecha de cada 
+noticia debe ocupar el espacio de toda su línea y mostrarse en color gris claro #999. El elemento <h3> 
+de #noticias debe mostrarse de color #003366.*/
+
+/*5.  El texto del elemento #publicidad es de color gris oscuro #555 y todos los enlaces de color #CC6600.*/
+
+/*6.  Los enlaces contenidos dentro de .articulo son de color #CC6600 y todos los párrafos muestran un 
+margen superior e inferior de 0.3em.*/
+
+/*7.  Añadir las reglas necesarias para que el contenido de #secundario se vea como en la imagen que se muestra.*/
+
+/*8.  Añadir las reglas necesarias para que el contenido de #pie se vea como en la imagen que se muestra.*/
+

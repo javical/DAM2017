@@ -1,0 +1,9 @@
+/* --------------------------------
+Site:       ej06
+CSS author: bafi
+Updated:    13/03/2017
+Updated by: bafi
+-------------------------------- */
+
+#container > div { margin-bottom: 10px; border: 1px dotted #000; width: 250px; }
+.box { width: 200px; height: 100px; border: 5px solid gray; background-color: silver; margin: 25px auto; }
